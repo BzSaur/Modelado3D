@@ -1,0 +1,24 @@
+# --- UNITY (Sin barra al inicio para buscar en subcarpetas) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+*.pid
+
+# --- VS CODE & WINDOWS ---
+.vscode/
+.vs/
+*.sln
+*.csproj
+Thumbs.db
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
