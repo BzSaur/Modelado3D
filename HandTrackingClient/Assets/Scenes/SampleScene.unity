@@ -505,12 +505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e88d7d7a8daf80b43b36c6f93d0cc82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UDPReceiver
-  port: 5052
-  targetPosition: {x: 0, y: 0, z: 0}
-  targetRotation: {x: 0, y: 0, z: 0, w: 1}
-  targetScale: 1
-  currentMode: none
-  dataReceived: 0
 --- !u!1 &620030844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,7 +1277,7 @@ MonoBehaviour:
   moveSpeed: 15
   xLimit: {x: -10, y: 10}
   yLimit: {x: 0.2, y: 10}
-  zLimit: {x: -2, y: 15}
+  zLimit: {x: -10, y: 15}
   grabRadius: 1
   glueRadius: 1.5
 --- !u!135 &2012705288
